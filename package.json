@@ -1,0 +1,31 @@
+{
+  "name": "discourse-inviter",
+  "description": "",
+  "version": "0.1.0",
+  "homepage": "https://github.com/chaser324/discourse-inviter",
+  "author": {
+    "name": "Chase Pettit",
+    "url": "https://github.com/chaser324"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chaser324/discourse-inviter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chaser324/discourse-inviter/issues"
+  },
+  "scripts": {
+    "postinstall": ""
+  },
+  "license": "GNU GPL",
+  "main": "Gruntfile.coffee",
+  "dependencies": {
+    "querystring": "~0.2.0",
+    "request": "~2.30.0",
+    "sync-request": "^1.0.2"
+  },
+  "devDependencies": {
+    "fast-csv": "^0.5.5",
+    "coffee-script": "^1.9.0"
+  }
+}
